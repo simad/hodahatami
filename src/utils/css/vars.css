@@ -1,0 +1,38 @@
+/* Variables
+/* ---------------------------------------------------------- */
+
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,400i,600,700,700i,800&display=swap');
+
+:root {
+
+    /* Colours */
+    --color-primary: #fcbf49;
+    --color-secondary: #a6e9d7;
+    --color-base: #202020;
+    --color-border: #ddd;
+    --color-bg: #f8f8f8;
+
+    /* #bea698 #00b6b0 */
+
+    /* Fonts */
+    --font-sans-serif: 'Montserrat', "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande";
+    --font-serif: Georgia, Times, serif;
+    --font-mono: Menlo, Courier, monospace;
+    --font-light: 100;
+    --font-normal: 400;
+    --font-bold: 700;
+    --font-heavy: 800;
+
+    /* Breakpoints */
+    --xlarge: 1680px;
+    --large: 1280px;
+    --medium: 980px;
+    --small: 740px;
+    --xsmall: 480px;
+
+    /* Sizes */
+    --height: 4rem;
+    --margin: 2rem;
+    --radius: 0.5rem;
+
+}
