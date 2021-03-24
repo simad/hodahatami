@@ -768,3 +768,19 @@ body {
 .padded-total {
     padding: 2em;
 }
+
+.client-list {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: flex-start;
+    padding-right: 1em;
+    padding-bottom: 1em;
+}
+
+.client-list .spec {
+    padding-right: 1em;
+}
+.client-list span {
+    font-weight: bold;
+}
