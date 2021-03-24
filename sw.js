@@ -26,10 +26,10 @@ workbox.clientsClaim();
  */
 self.__precacheManifest = [
   {
-    "url": "webpack-runtime-f9ea1f657fe729b936f2.js"
+    "url": "webpack-runtime-b3b9fea997bfc0ef6271.js"
   },
   {
-    "url": "styles.078154ece086559e8df0.css"
+    "url": "styles.b1712fc9777d1426b833.css"
   },
   {
     "url": "styles-407fe62976dc5310c43e.js"
@@ -38,22 +38,14 @@ self.__precacheManifest = [
     "url": "framework-305b3707783ccc9d7ca6.js"
   },
   {
-    "url": "app-b9a547b61a38e5932af5.js"
+    "url": "app-f2fa93b235d560b8384b.js"
   },
   {
     "url": "component---node-modules-gatsby-plugin-offline-app-shell-js-36dc033f967ae9fe9cda.js"
   },
   {
     "url": "offline-plugin-app-shell-fallback/index.html",
-    "revision": "1cbe7bd0ea1e5aa7b39b26eab0ed2c37"
-  },
-  {
-    "url": "page-data/offline-plugin-app-shell-fallback/page-data.json",
-    "revision": "c7047792c6f91b88e0d9abc0cd819e92"
-  },
-  {
-    "url": "page-data/app-data.json",
-    "revision": "135cec8f15e4bbc92b2d4a27f34d70d1"
+    "revision": "854b7e1e85073d5af67660a0b5114520"
   },
   {
     "url": "polyfill-d0a90a918e39f7bd0bdc.js"
@@ -64,7 +56,7 @@ self.__precacheManifest = [
   },
   {
     "url": "manifest.webmanifest",
-    "revision": "93c73e3108677785db821c4f8bb8a266"
+    "revision": "7b3d019ef1d66dd978ceb5545d42ac1d"
   }
 ].concat(self.__precacheManifest || []);
 workbox.precaching.suppressWarnings();
@@ -83,12 +75,12 @@ const { NavigationRoute } = workbox.routing
 
 const navigationRoute = new NavigationRoute(async ({ event }) => {
   let { pathname } = new URL(event.request.url)
-  pathname = pathname.replace(new RegExp(`^/hodahatami.com`), ``)
+  pathname = pathname.replace(new RegExp(`^`), ``)
 
   // Check for resources + the app bundle
   // The latter may not exist if the SW is updating to a new version
   const resources = await idbKeyval.get(`resources:${pathname}`)
-  if (!resources || !(await caches.match(`/hodahatami.com/app-b9a547b61a38e5932af5.js`))) {
+  if (!resources || !(await caches.match(`/app-f2fa93b235d560b8384b.js`))) {
     return await fetch(event.request)
   }
 
@@ -101,7 +93,7 @@ const navigationRoute = new NavigationRoute(async ({ event }) => {
     }
   }
 
-  const offlineShell = `/hodahatami.com/offline-plugin-app-shell-fallback/index.html`
+  const offlineShell = `/offline-plugin-app-shell-fallback/index.html`
   return await caches.match(offlineShell)
 })
 
