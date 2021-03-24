@@ -13,7 +13,8 @@ function TestimonialSlider() {
     slidesToScroll: 1,
     centerMode: true,
     draggable: true,
-    arrows: false
+    arrows: false,
+    dotsClass: 'dots'
   };
   const testimonials = [
     {

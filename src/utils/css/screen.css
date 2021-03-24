@@ -735,7 +735,13 @@ body {
   ul {
     list-style-type: none; /* Remove bullets */
   }
-
+  h2 {
+    background-image: linear-gradient(120deg, var(--color-secondary) 0%, var(--color-secondary) 100%);
+    background-repeat: no-repeat;
+    background-size: 100% 0.4em;
+    background-position: 0 99%;
+    transition: background-size 0.25s ease-in;
+  }
   .site-head a {
     text-decoration: none;
   }
