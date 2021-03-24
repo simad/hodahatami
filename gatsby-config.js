@@ -2,7 +2,6 @@ const urljoin = require("url-join")
 const siteConfig = require("./siteConfig")
 
 module.exports = {
-  pathPrefix: "",
   siteMetadata: {
     title: siteConfig.name,
     author: siteConfig.author,
@@ -105,5 +104,6 @@ module.exports = {
     },
     `gatsby-plugin-offline`,
     `gatsby-plugin-react-helmet`,
+    `gatsby-plugin-cname`
   ],
 }
