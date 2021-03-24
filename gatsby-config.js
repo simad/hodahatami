@@ -2,7 +2,7 @@ const urljoin = require("url-join")
 const siteConfig = require("./siteConfig")
 
 module.exports = {
-  pathPrefix: "/hodahatami.com",
+  pathPrefix: "",
   siteMetadata: {
     title: siteConfig.name,
     author: siteConfig.author,
@@ -91,7 +91,6 @@ module.exports = {
         //trackingId: `ADD YOUR TRACKING ID HERE`,
       },
     },
-    `gatsby-plugin-feed`,
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
@@ -104,7 +103,6 @@ module.exports = {
         icon: `content/assets/gatsby-icon.png`,
       },
     },
-    `gatsby-plugin-netlify`,
     `gatsby-plugin-offline`,
     `gatsby-plugin-react-helmet`,
   ],
