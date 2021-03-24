@@ -18,7 +18,7 @@ const Index = ({ data }) => {
   return (
     <Layout title={siteMetadata.title}>
       <SEO
-        title="All posts"
+        title="Portfolio"
         keywords={[`blog`, `gatsby`, `javascript`, `react`]}
       />
       {<Cover />}

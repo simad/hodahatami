@@ -6,9 +6,9 @@ import "./socialIcons.css"
 const SocialIcons = () => {
   return (
     <div className="social-icons">
-        <SocialIcon className="social-icon" url="https://linkedin.com/hoda-hatami" bgColor="#202020"/>
-        <SocialIcon className="social-icon" url="https://pinterest.com/hodahatami" bgColor="#202020"/>
-        <SocialIcon className="social-icon" url="mailto://hoda.hatami@gmail.com" bgColor="#202020"/>
+        <SocialIcon className="social-icon" url="https://linkedin.com/in/hoda-hatami" bgColor="#202020" target="_blank"/>
+        <SocialIcon className="social-icon" url="https://pinterest.com/hshatami" bgColor="#202020" target="_blank" />
+        <SocialIcon className="social-icon" url="mailto://hoda.hatami@gmail.com" bgColor="#202020" target="_blank" />
     </div>
   )
 }

@@ -14,7 +14,7 @@ const WorkPage = ({ data }, location) => {
   return (
     <Layout title={siteTitle}>
       <SEO
-        title="All projects"
+        title="Work"
         keywords={[`portfolio`, `architecture`, `projects`, `case study`]}
       />
       

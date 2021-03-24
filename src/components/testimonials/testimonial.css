@@ -24,10 +24,10 @@ h2 {
   margin: 0;
   font-size: 1.6em;
   font-style: italic;
-  line-height: 1.4 !important;
+  line-height: 1.6 !important;
   font-family: Georgia, 'Times New Roman', Times, serif;
-  color: black;
-}
+  color: var(--color-base);
+} 
 .quote-container .quote p {
   position: relative;
   margin-bottom: 20px;

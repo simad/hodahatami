@@ -13,7 +13,7 @@ const AboutPage = ({ data }, location) => {
 
   return (
     <Layout title={siteTitle}>
-      <SEO title="About" keywords={[`blog`, `gatsby`, `javascript`, `react`]} />
+      <SEO title="About" keywords={[`architecture`, `design`, `psychology`, `art`]} />
          
       <article className="project-content page-template no-image">
         <div className="project">
@@ -21,15 +21,19 @@ const AboutPage = ({ data }, location) => {
           <div className="forty">
           <figure className="kg-card kg-image-card padded">
             <Img
-              fluid={data.benchAccounting.childImageSharp.fluid}
+              fluid={data.hoda.childImageSharp.fluid}
               className="kg-image"
             />
           </figure>
           </div>
           <div className="sixty">
-          <h1>Hello, I'm Hoda Guzu</h1>
+          <h1>Hello, I'm Hoda</h1>
           <p>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+          I am a keen learner and my passion is creating workplaces where humans can thrive. To achieve that, I have obtained a Masters in Organizational psychology, with a focus on Human Behaviour in the Workplace.<br/><br/>
+<b>I strongly believe that the culture of work has evolved, and it is my responsibility as a designer to create spaces in which mental health is as important as productivity.</b><br/><br/>
+          From a young age I was always fascinated with Art and Design, the interaction between form, colour, light, pattern and texture. <br/>
+I won a number of internships at leading International & global architecture firms Swanke Hayden Connell Architects & MMoser Associates, giving me the perfect platform to begin my career.<br/>
+
           </p>
          <SocialIcons />
 
@@ -96,8 +100,8 @@ const indexQuery = graphql`
         title
       }
     }
-    benchAccounting: file(
-      relativePath: { eq: "bench-accounting-49909-unsplash.jpg" }
+    hoda: file(
+      relativePath: { eq: "hoda.jpg" }
     ) {
       childImageSharp {
         fluid(maxWidth: 1360) {
