@@ -3,7 +3,6 @@
   white-space: pre-wrap;
 }
 .cover {
-  font-size: 8vmin;
   font-weight: bold;
   flex-direction: column;
   display: flex;
@@ -14,4 +13,7 @@
   line-height: 2em;
   padding: 1em;
   height: 90vh;
+}
+.cover h1 {
+  font-size: 1.2em;
 }
