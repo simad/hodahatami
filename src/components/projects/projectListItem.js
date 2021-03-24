@@ -19,9 +19,6 @@ export default props => (
   >
     <Link to={`/work/${props.node.frontmatter.slug}`} className="project-item-link">
       <div className="project-item-content">
-        <h3 className="project-item-title">
-          {props.node.frontmatter.title || props.node.frontmatter.slug}
-        </h3>
       </div>
     </Link>
   </article>

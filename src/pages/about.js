@@ -33,12 +33,12 @@ const AboutPage = ({ data }, location) => {
 <b>I strongly believe that the culture of work has evolved, and it is my responsibility as a designer to create spaces in which mental health is as important as productivity.</b><br/><br/>
           From a young age I was always fascinated with Art and Design, the interaction between form, colour, light, pattern and texture. <br/>
 I won a number of internships at leading International & global architecture firms Swanke Hayden Connell Architects & MMoser Associates, giving me the perfect platform to begin my career.<br/>
-For the past 12 years, I've worked as a Senior Designer and Design Director with over 50 clients, and completed over 150 projects.
+For the past 12 years, I've worked as a Creative Design Lead with over 50 clients, and completed over 150 projects.
 
           </p>
          <SocialIcons />
 
-          <p><a href="https://linkedin.com">Download my CV</a></p>
+          <p><a href={data.pdf.publicURL} target="_blank">Download my CV</a></p>
           </div>
           </div>
 
@@ -100,6 +100,11 @@ const indexQuery = graphql`
       siteMetadata {
         title
       }
+    }
+    pdf: file(
+      name: { eq: "hoda_hatami_cv" }
+    ) {
+      publicURL
     }
     hoda: file(
       relativePath: { eq: "hoda.jpg" }
