@@ -39,13 +39,20 @@ module.exports = {
       options: {
         plugins: [
           {
+            resolve: "gatsby-remark-images-grid",
+            options: {
+                className: "image-grid",
+                gridGap: "20px"
+            },
+           },
+          {
             resolve: `gatsby-remark-images`,
             options: {
               maxWidth: 1360,
               withWebp: true,
               showCaptions: true,
-              quality: 75,
-              wrapperStyle: `margin: 7vw 0;`,
+              quality: 90,
+              wrapperStyle: `margin: 2vw 0;`,
             },
           },
           {

@@ -8,23 +8,46 @@ client_name: Simply Business
 size: 28000sq ft
 location: 99 Gresham Street, London EC2V 7NG
 ---
+<div class="kg-card kg-image-card kg-width-wide">
 
+```grid|2
 ![Reception](./new_29.JPG)
-![Reception](./new_30.JPG)
-![Reception](./new_1.JPG)
 ![Reception](./new_38.JPG)
-![Reception](./new_7.JPG)
-![Reception](./new_8.JPG)
+```
+![Reception](./new_30.JPG)
+
+
+```grid|2
+![Reception](./new_1.JPG)
 ![Reception](./new_9.JPG)
-![Reception](./new_14.JPG)
-![Reception](./new_16.JPG)
+```
+
+```grid|2
 ![Reception](./new_17.JPG)
+![Reception](./new_14.JPG)
+
+```
+```grid|3
+![Reception](./new_8.JPG)
+![Reception](./new_16.JPG)
 ![Reception](./new_18.JPG)
-![Reception](./new_20.JPG)
-![Reception](./new_22.JPG)
-![Reception](./new_23.JPG)
+```
+```grid|3
 ![Reception](./new_24.JPG)
 ![Reception](./new_26.JPG)
-![Reception](./new_34.JPG)
+![Reception](./new_7.JPG)
+
+```
+```grid|2
+![Reception](./new_22.JPG)
+![Reception](./new_23.JPG)
+```
+```grid|2
+![Reception](./new_20.JPG)
 ![Reception](./new_36.JPG)
+```
+```grid|2
+![Reception](./new_34.JPG)
 ![Reception](./new_31.JPG)
+```
+</div>

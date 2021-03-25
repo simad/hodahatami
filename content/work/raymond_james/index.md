@@ -8,33 +8,36 @@ client_name: Raymond James
 size: 25000sq ft
 location: 5 Apollo Street, London, EC2A 2AG
 ---
-<div class="kg-card kg-image-card kg-width-full">
+<div class="kg-card kg-image-card kg-width-wide">
 
+```grid|2
 ![Reception](./1.jpg)
-
-</div>
-
-<div class="kg-card kg-image-card kg-width-full">
-
 ![Reception](./reception.jpg)
+```
 
-</div>
+![Lounge](./lounge.JPG)
 
-<div class="kg-card kg-image-card kg-width-full">
-
- ![Lounge](./lounge.JPG)
-
-</div>
-
-![Plants](./plants.JPG)
-
+```grid|3
 ![Lounge](./lounge3.jpg)
-
 ![Office floor](./office.jpg)
-![Tech station](./tech.jpg)
 ![Tech station](./tech2.jpg)
-![Meeting room](./meetingroom.jpg)
+```
 ![Meeting room](./meetingroom2.jpg)
+
+![Tech station](./tech.jpg)
+
+
+```grid|3
 ![Corridor](./corridor.jpg)
+![Meeting room](./meetingroom.jpg)
+![Plants](./plants.JPG)
+```
+
+
+```grid|2
 ![Toilets](./toilet.jpg)
 ![Toilets](./toilet2.jpg)
+```
+
+
+</div>

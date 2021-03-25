@@ -8,13 +8,18 @@ client_name: Butterfield Mortgages
 size: 11000sq ft
 location: Sun Court,66-67 Cornhill, London, EC3V 3NB
 ---
+<div class="kg-card kg-image-card kg-width-wide">
+
+```grid|2
 ![Reception](./1.jpg)
-
- ![Lounge](./2.jpg)
-
-
-![Lounge](./3.jpg)
+![Lounge](./2.jpg)
+```
+![Meeting Room](./3.jpg)
 
 ![Office floor](./4.jpg)
+
+```grid|2
 ![Tech station](./5.jpg)
 ![Tech station](./6.jpg)
+```
+</div>

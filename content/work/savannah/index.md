@@ -8,59 +8,33 @@ client_name: Savannah Petroleum
 size: 18000sq ft
 location: 40 Bank St, London, E14 5NR
 ---
-<div class="kg-card kg-image-card kg-width-full">
+<div class="kg-card kg-image-card kg-width-wide">
 
 ![Reception](./2.jpg)
 
-</div>
 
-<div class="kg-card kg-image-card kg-width-full">
+![Lounge](./4.jpg)
 
-![Reception](./3.jpg)
-
-</div>
-
-<div class="kg-card kg-image-card kg-width-full">
-
- ![Lounge](./4.jpg)
-
-</div>
-
-<div class="kg-card kg-image-card kg-width-full">
-
-![Reception](./5.jpg)
-
-</div>
-<div class="kg-card kg-image-card kg-width-full">
-
+```grid|2
 ![Reception](./6.jpg)
-
-</div>
-
-<div class="kg-card kg-image-card kg-width-full">
-
 ![Reception](./7.jpg)
-
-</div>
-
-<div class="kg-card kg-image-card kg-width-full">
-
-![Reception](./8.jpg)
-
+```
 ![Reception](./11.jpg)
 
-<div class="kg-card kg-image-card kg-width-full">
-
-![Reception](./12.jpg)
-
-</div>
-<div class="kg-card kg-image-card kg-width-full">
-
+```grid|2
+![Reception](./3.jpg)
+![Reception](./5.jpg)
+```
 ![Reception](./13.jpg)
 
-</div>
-<div class="kg-card kg-image-card kg-width-full">
+```grid|2
+![Reception](./8.jpg)
+![Reception](./12.jpg)
+```
 
+```grid|2
+![Reception](./9.jpg)
 ![Reception](./14.jpg)
+```
 
 </div>
