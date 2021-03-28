@@ -1,12 +1,12 @@
 ---
 title: HCP
-date: "2015-05-04"
+date: "2020-12-18"
 slug: "hcp"
 thumbnail: ./1.jpg
 description: HCP wanted to merge two big offices into one to improve collaboration and have additional client-facing areas.
 client_name: HCP
 size: 18000sq ft
-location: 23 Chiswell St.,London, EC1Y 5TY
+location: 23 Chiswell St, London, EC1Y5TY
 ---
 <div class="kg-card kg-image-card kg-width-wide">
 

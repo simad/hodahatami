@@ -18,7 +18,7 @@ function TestimonialSlider() {
   };
   const testimonials = [
     {
-      testimonial: "Hoda has great understanding of space, colour, lighting and design. Very insightful about a wide range of design subjects, she brings unique and sophisticated perspective to the project, patiently leading through design options and guiding towards the final design. Would highly recommended her.",
+      testimonial: "Hoda has great understanding of space, colour, lighting and design. Very insightful about a wide range of design subjects, she brought a unique and sophisticated perspective to the project, patiently leading through various design options and guiding towards the final design. Would highly recommended her.",
       author: "Mark Lannotti",
       role: "Non-Executive Director",
       company: "Savannah Energy"
@@ -30,7 +30,7 @@ function TestimonialSlider() {
       company: "Cityspace"
     },
     {
-      testimonial: "Supporting and facilitating HCP’s values with effective design solutions, interactive visual and clear presentation to our team management and staff made the transition to our new head office an enjoyable process. Overall my experience of working with Hoda was thoroughly rewarding. I would not hesitate to appoint Hoda in the future and to recommend her to my business network.",
+      testimonial: "Supporting and facilitating HCP’s values with effective design solutions, interactive visual and clear presentation to our team management and staff, made the transition to our new head office an enjoyable process. Overall my experience of working with Hoda was thoroughly rewarding. I would not hesitate to appoint Hoda in the future and to recommend her to my business network.",
       author: "Stuart Yeatman",
       role: "Relationship Director",
       company: "HCP"

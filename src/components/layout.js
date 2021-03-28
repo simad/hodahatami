@@ -24,14 +24,17 @@ const Layout = props => {
               </div>
             </div>
           </a>
-          <nav className="si§-head-left">
+          <nav className="site-head-left">
               <Link className="site-head-logo" to={`/`}>
-              {title}
+              <img className="logo" src={'/hh_logo_white.png'} alt="Logo" />
             </Link>
           </nav>
           <div id="swup" className="site-head-right">
             <ul className="nav" role="menu">
-            <li className="nav-work" role="menuitem">
+              {/* <li className="nav-insights" role="menuitem">
+                <Link to={`/insights`}>Insights</Link>
+              </li> */}
+              <li className="nav-work" role="menuitem">
                 <Link to={`/work`}>Work</Link>
               </li>
               <li className="nav-about" role="menuitem">

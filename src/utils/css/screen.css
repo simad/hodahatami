@@ -51,7 +51,13 @@ body {
     text-indent: -9999px;
 }
 
-
+::-moz-selection { /* Code for Firefox */
+    background: var(--color-primary);
+  }
+  
+  ::selection {
+    background: var(--color-secondary);
+  }
 /* Layout
 /* ---------------------------------------------------------- */
 
@@ -210,10 +216,10 @@ body {
 }
 
 .site-head-logo img {
-    display: block;
     margin-top: 2px;
+    margin-right: 1em;
     width: auto;
-    height: 28px;
+    height: 80px;
 }
 
 .site-head-right {
@@ -269,7 +275,7 @@ body {
     position: absolute;
     right: 0;
     z-index: 9999;
-    padding: 12px 12px 12px 0;
+    padding: 20px 12px 12px 0;
 }
 
 @media (max-width: 850px) {
@@ -282,7 +288,7 @@ body {
     .site-head-container {
         flex-direction: column;
         justify-content: flex-start;
-        height: 40px;
+        height: 100px;
         background: rgba(255,255,255,0);
         z-index: -1;
         transition: all 0.4s ease-out;
@@ -308,7 +314,7 @@ body {
         transition: transform 0.3s cubic-bezier(0.4, 0.01, 0.165, 0.99),
         opacity 0.2s cubic-bezier(0.4, 0.01, 0.165, 0.99);
         transform: scale(1.1) translateY(-25px);
-    }
+    } 
     .nav {
         width: 100%;
         flex-direction: column;
@@ -532,7 +538,7 @@ body {
 }
 
 .post-content-body {
-    font-size: 1.9rem;
+    font-size: 2.4rem;
     line-height: 1.65em;
 }
 @media (max-width: 500px) {
@@ -697,6 +703,10 @@ body {
 /* Page Template
 /* ---------------------------------------------------------- */
 
+.page-template {
+    margin-top: 5em;
+    font-size: 2.4rem;
+}
 .page-template .post-content-body h1,
 .page-template .post-content-body h2,
 .page-template .post-content-body h3 {
@@ -763,24 +773,12 @@ body {
     align-items: flex-start;
     justify-content: flex-start;
     padding: 1em;
-}
-
-.padded-total {
-    padding: 2em;
+    line-height: 2;
 }
 
 .client-list {
     display: flex;
-    flex-wrap: wrap;
-    align-items: center;
-    justify-content: flex-start;
-    padding-right: 1em;
-    padding-bottom: 1em;
+    align-items: flex-start;
+    justify-content: center;
 }
 
-.client-list .spec {
-    padding-right: 1em;
-}
-.client-list span {
-    font-weight: bold;
-}

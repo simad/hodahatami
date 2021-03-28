@@ -6,9 +6,7 @@ export default props => (
   <div>
     <ProjectInfo props {...props} />
   <article
-    className={`project-item project-item-large ${
-      props.projectClass
-    } ${props.node.frontmatter.thumbnail ? `with-image` : `no-image`}`}
+    className={`project-item project-item-large ${props.node.frontmatter.thumbnail ? `with-image` : `no-image`}`}
     style={
       props.node.frontmatter.thumbnail && {
         backgroundImage: `url(${

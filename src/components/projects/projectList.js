@@ -14,7 +14,7 @@
   const projects = data.allMarkdownRemark.edges
 
    return (
-      <div className="project-list">
+      <div className="page-template project-list">
         <h1>Selected Projects</h1>
 
       {projects.map(({ node }) => {

@@ -35,14 +35,14 @@ exports.createPages = ({ graphql, actions }) => {
     // Create blog posts pages.
     const allEdges = result.data.allMarkdownRemark.edges
     const posts = allEdges.filter(
-      edge => edge.node.fields.collection === `blog`
+      edge => edge.node.fields.collection === `insights`
     );
     posts.forEach((post, index) => {
       const previous = index === posts.length - 1 ? null : posts[index + 1].node
       const next = index === 0 ? null : posts[index - 1].node
 
       createPage({
-        path: `/blog/${post.node.frontmatter.slug}`,
+        path: `/insights/${post.node.frontmatter.slug}`,
         component: postTemplate,
         context: {
           slug: post.node.frontmatter.slug,

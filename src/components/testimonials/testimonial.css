@@ -83,6 +83,7 @@
     opacity: .75;
     color: black;
 }
+
 .quote-container:hover {
   cursor: grab;
 }
@@ -94,7 +95,7 @@
   position: relative;
   z-index: 600;
   margin: 0;
-  font-size: 1.6em;
+  font-size: 1.2em;
   font-style: italic;
   line-height: 1.6 !important;
   font-family: Georgia, 'Times New Roman', Times, serif;
@@ -107,7 +108,7 @@
 .quote-container .quote p:first-child:before {
   content: '\201C';
   color: var(--color-secondary);
-  font-size: 5em;
+  font-size: 4em;
   font-weight: 700;
   position: absolute;
   top: -0.3em;

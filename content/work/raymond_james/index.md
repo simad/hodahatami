@@ -1,12 +1,12 @@
 ---
 title: Raymond James
-date: "2017-05-05"
+date: "2020-12-27"
 slug: "raymond_james"
 thumbnail: ./entrance.jpg
 description: Design for the relocation of 135 members of staff for Raymond James' new headquarters, characterised by the seamless integration with the character of the existing architecture.
 client_name: Raymond James
 size: 25000sq ft
-location: 5 Apollo Street, London, EC2A 2AG
+location: 5 Apollo Street, London, EC2A2AG
 ---
 <div class="kg-card kg-image-card kg-width-wide">
 

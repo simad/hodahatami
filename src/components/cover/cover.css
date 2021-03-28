@@ -13,7 +13,18 @@
   line-height: 2em;
   padding: 1em;
   height: 90vh;
+  font-size: 8rem;
 }
 .cover h1 {
-  font-size: 1.2em;
+  font-size: 8rem;
+}
+
+@media (max-width: 700px) {
+  .cover {
+    font-size: 4rem;
+    }
+    .cover h1  {
+      font-size: 4rem;
+
+    }
 }

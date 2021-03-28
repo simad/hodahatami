@@ -1,0 +1,54 @@
+@import "../../utils/css/vars.css";
+
+.article-list {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.article {
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+}
+.article-info {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    padding: 2em;
+    transition: 0.3s;
+}
+
+.article-item {
+    position: relative;
+    display: flex;
+    position: relative;
+    height: 20vw;
+}
+
+.article-info .description {
+    margin-top: 30px;
+}
+
+.article-item-link {
+    flex: 1 1 auto;
+    display: block;
+}
+
+.article-info:hover  {
+    background-color: var(--color-secondary);
+    
+}
+
+.article a {
+    text-decoration: none;
+}
+
+@media (max-width: 700px) {
+    .article-item {
+        align-items: center;
+        justify-content: center;
+        flex: 1 1 50%;
+        min-height: 400px;
+    }
+}

@@ -8,15 +8,14 @@ import SEO from "../components/seo"
 import "../utils/normalize.css"
 import "../utils/css/screen.css"
 
-const AboutPage = ({ data }, location) => {
+const AboutPage = ({ data }) => {
   const siteTitle = data.site.siteMetadata.title
 
   return (
     <Layout title={siteTitle}>
       <SEO title="About" keywords={[`architecture`, `design`, `psychology`, `art`]} />
          
-      <article className="project-content page-template no-image">
-        <div className="project">
+      <article className="page-template no-image">
           <div className="about">
           <div className="forty">
           <figure className="kg-card kg-image-card padded">
@@ -38,13 +37,13 @@ For the past 12 years, I've worked as a Creative Design Lead with over 50 client
           </p>
          <SocialIcons />
 
-          <p><a href={data.pdf.publicURL} target="_blank">Download my CV</a></p>
+          <p><a href={data.pdf.publicURL} target="_blank" rel="noreferrer">Download my CV</a></p>
           </div>
           </div>
           <h1>Worked with</h1>
 
           <div className="client-list">
-            <div className="padded-total">
+            <div>
               <ul> 
                 <h3>Banks, Finance, Hedge Funds</h3>
                 <li>City Asset Management</li>
@@ -93,7 +92,7 @@ For the past 12 years, I've worked as a Creative Design Lead with over 50 client
                 <li>Wilks Head and Eve</li>
               </ul>
             </div>
-            <div className="padded-total">
+            <div>
             <ul> 
                 <h3>Insurance</h3>
                 <li>Allianz Insurance</li>
@@ -135,7 +134,6 @@ For the past 12 years, I've worked as a Creative Design Lead with over 50 client
               </ul>
             </div>
             </div>
-        </div>
       </article>
     </Layout>
   )
