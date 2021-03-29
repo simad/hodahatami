@@ -8,7 +8,7 @@ client_name: World Nuclear Association
 size: 8000sq ft
 location: Tower House, 10 Southampton Street, London, WC2E7HA
 ---
-<div class="kg-card kg-image-card kg-width-wide">
+<div class="kg-card kg-image-card kg-width-full">
 
 ![Reception](./4.JPG)
 
