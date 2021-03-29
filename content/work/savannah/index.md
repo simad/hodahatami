@@ -3,7 +3,7 @@ title: Savannah Petroleum
 date: "2020-12-23"
 slug: "savannah_petroleum"
 thumbnail: ./1.jpg
-description: The client wanted to divide client-facing and staff area and accommodate additional space for visitors. Main goals were improving collaboration amongst the staff by switching to a open-plan area.
+description: Objectives of this project were switching to an open-plan area, dividing client-facing and staff areas, and accomodating additional space for visitors, with a residential look.
 client_name: Savannah Petroleum
 size: 18000sq ft
 location: 40 Bank St, London, E145NR
@@ -19,7 +19,7 @@ location: 40 Bank St, London, E145NR
 ![Reception](./6.jpg)
 ![Reception](./7.jpg)
 ```
-![Reception](./11.jpg)
+![Reception](./12.jpg)
 
 ```grid|2
 ![Reception](./3.jpg)
@@ -29,7 +29,7 @@ location: 40 Bank St, London, E145NR
 
 ```grid|2
 ![Reception](./8.jpg)
-![Reception](./12.jpg)
+![Reception](./11.jpg)
 ```
 
 ```grid|2

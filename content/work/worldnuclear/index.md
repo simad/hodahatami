@@ -1,20 +1,21 @@
 ---
 title: World Nuclear
-date: "2020-12-16"
+date: "2020-12-15"
 slug: "world_nuclear"
 thumbnail: ./0.JPG
-description: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+description: Designing a new office to accomodate for the growth of the team, with the introduction of collaborative spaces to encourage knowledge sharing.
 client_name: World Nuclear Association
 size: 8000sq ft
 location: Tower House, 10 Southampton Street, London, WC2E7HA
 ---
 <div class="kg-card kg-image-card kg-width-wide">
 
+![Reception](./4.JPG)
+
 ```grid|2
 ![Tech station](./1-3.JPG)
 ![Tech station](./1-2.JPG)
 ```
-![Reception](./4.JPG)
 ![Reception](./5.JPG)
 ```grid|2
 ![Meeting Room](./6-1.jpg)

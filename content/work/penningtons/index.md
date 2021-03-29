@@ -1,11 +1,11 @@
 ---
 title: Penningtons
-date: "2020-12-14"
+date: "2001-12-14"
 slug: "penningtons"
 thumbnail: ./0.jpg
-description: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua
+description: Penningtons wanted to open a new office in Guildford; one floor being entirely client-facing and admin, and another for the staff.
 client_name: Penningtons
-size: TBD
+size: 35000sq ft
 location: 31 Chertsey St, Guildford, GU14HD
 ---
 <div class="kg-card kg-image-card kg-width-wide">

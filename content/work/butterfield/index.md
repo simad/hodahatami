@@ -1,6 +1,6 @@
 ---
 title: Butterfield Mortgages
-date: "2020-12-14"
+date: "2020-12-16"
 slug: "butterfield_mortgages"
 thumbnail: ./0.jpg
 description: The client decided to expand to another floor at their existing London office, to provide additional space for an increase in staff numbers. Main requirements were flexibility of space and client-facing areas.

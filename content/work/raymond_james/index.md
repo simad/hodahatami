@@ -1,6 +1,6 @@
 ---
 title: Raymond James
-date: "2020-12-27"
+date: "2020-12-25"
 slug: "raymond_james"
 thumbnail: ./entrance.jpg
 description: Design for the relocation of 135 members of staff for Raymond James' new headquarters, characterised by the seamless integration with the character of the existing architecture.
