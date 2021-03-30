@@ -23,11 +23,18 @@ const ArtPage = ({ data }) => {
           <figure>
            <Img fluid={data.hoda.childImageSharp.fluid}  />
           </figure>
-              {data.allFile.edges.map(edge => {
-                return <figure>
-          <Img fluid={edge.node.childImageSharp.fluid}/>
+          <figure>
+           <Img fluid={data.art2.childImageSharp.fluid}  />
           </figure>
-        })}
+          <figure>
+           <Img fluid={data.art3.childImageSharp.fluid}  />
+          </figure>
+          <figure>
+           <Img fluid={data.art4.childImageSharp.fluid}  />
+          </figure>
+          <figure>
+           <Img fluid={data.art1.childImageSharp.fluid}  />
+          </figure>
       </article>
     </Layout>
   )
@@ -49,17 +56,42 @@ const indexQuery = graphql`
         }
       }
     }
-    allFile(filter: { sourceInstanceName: { eq: "art" } }) {
-      edges {
-        node {
-          id
-          childImageSharp {
-            fluid(maxWidth: 300) {
-              ...GatsbyImageSharpFluid
-            }
-          }
+    art1: file(
+      relativePath: { eq: "1.jpg" }
+    ) {
+      childImageSharp {
+        fluid(maxWidth: 1360) {
+          ...GatsbyImageSharpFluid
         }
-      } }
+      }
+    }
+    art2: file(
+      relativePath: { eq: "2.jpg" }
+    ) {
+      childImageSharp {
+        fluid(maxWidth: 1360) {
+          ...GatsbyImageSharpFluid
+        }
+      }
+    }
+    art3: file(
+      relativePath: { eq: "3.jpg" }
+    ) {
+      childImageSharp {
+        fluid(maxWidth: 1360) {
+          ...GatsbyImageSharpFluid
+        }
+      }
+    }
+    art4: file(
+      relativePath: { eq: "4.jpg" }
+    ) {
+      childImageSharp {
+        fluid(maxWidth: 1360) {
+          ...GatsbyImageSharpFluid
+        }
+      }
+    }
   }
 `
 
