@@ -8,7 +8,7 @@ client_name: Savannah Petroleum
 size: 18000sq ft
 location: 40 Bank St, London, E145NR
 ---
-<div class="kg-card kg-image-card kg-width-full">
+<div class="kg-card kg-image-card kg-width-wide">
 
 ![Reception](./2.jpg)
 
