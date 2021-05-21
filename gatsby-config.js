@@ -12,7 +12,6 @@ module.exports = {
     },
   },
   plugins: [
-    
     {
       resolve: `gatsby-source-filesystem`,
       options: {
@@ -35,23 +34,16 @@ module.exports = {
       },
     },
     {
-      resolve: `gatsby-source-filesystem`,
-      options: {
-        path: `${__dirname}/content/assets/art`,
-        name: `art`,
-      },
-    },
-    {
       resolve: `gatsby-transformer-remark`,
       options: {
         plugins: [
           {
             resolve: "gatsby-remark-images-grid",
             options: {
-                className: "image-grid",
-                gridGap: "20px"
+              className: "image-grid",
+              gridGap: "20px",
             },
-           },
+          },
           {
             resolve: `gatsby-remark-images`,
             options: {
@@ -94,7 +86,7 @@ module.exports = {
         // develop: true, // Enable while using `gatsby develop`
         // tailwind: true, // Enable tailwindcss support
         // whitelist: ['whitelist'], // Don't remove this selector
-        ignore: ['node_modules/slick'], // Ignore files/folders
+        ignore: ["node_modules/slick"], // Ignore files/folders
         // purgeOnly : ['components/', '/main.css', 'bootstrap/'], // Purge only these files/folders
       },
     },
@@ -118,6 +110,6 @@ module.exports = {
     },
     `gatsby-plugin-offline`,
     `gatsby-plugin-react-helmet`,
-    `gatsby-plugin-cname`
+    `gatsby-plugin-cname`,
   ],
 }
