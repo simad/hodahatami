@@ -3,7 +3,7 @@ import { graphql, StaticQuery } from "gatsby"
 
 import Layout from "../components/layout"
 import SEO from "../components/seo"
-import ProjectList from "../components/projects/projectList"
+import Login from "../components/login"
 
 // import "../utils/global.scss"
 import "../utils/normalize.css"
@@ -17,9 +17,8 @@ const WorkPage = ({ data }, location) => {
         title="Work"
         keywords={[`portfolio`, `architecture`, `projects`, `case study`]}
       />
-      
-      {<ProjectList />}
 
+      {<Login />}
     </Layout>
   )
 }

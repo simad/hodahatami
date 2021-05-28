@@ -36,7 +36,7 @@ exports.createPages = ({ graphql, actions }) => {
     const allEdges = result.data.allMarkdownRemark.edges
     const posts = allEdges.filter(
       edge => edge.node.fields.collection === `insights`
-    );
+    )
     posts.forEach((post, index) => {
       const previous = index === posts.length - 1 ? null : posts[index + 1].node
       const next = index === 0 ? null : posts[index - 1].node
@@ -53,9 +53,10 @@ exports.createPages = ({ graphql, actions }) => {
     })
     const projects = allEdges.filter(
       edge => edge.node.fields.collection === `work`
-    );
+    )
     projects.forEach((project, index) => {
-      const previous = index === projects.length - 1 ? null : projects[index + 1].node
+      const previous =
+        index === projects.length - 1 ? null : projects[index + 1].node
       const next = index === 0 ? null : projects[index - 1].node
 
       createPage({
@@ -80,7 +81,20 @@ exports.onCreateNode = ({ node, actions, getNode }) => {
     createNodeField({
       name: `collection`,
       node,
-      value: getNode(node.parent).sourceInstanceName
+      value: getNode(node.parent).sourceInstanceName,
     })
+  }
+}
+
+// Implement the Gatsby API “onCreatePage”. This is
+// called after every page is created.
+exports.onCreatePage = async ({ page, actions }) => {
+  const { createPage } = actions
+  // page.matchPath is a special key that's used for matching pages
+  // only on the client.
+  if (page.path.match(/^\/work/)) {
+    page.matchPath = "/work/*"
+    // Update the page.
+    createPage(page)
   }
 }
