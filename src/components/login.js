@@ -22,7 +22,7 @@ class Login extends React.Component {
       return <ProjectList />
     }
     return (
-      <div className="page-template login">
+      <div className="page-template project-content-body login">
         <h3>Please insert your password to know more</h3>
         <form
           method="post"

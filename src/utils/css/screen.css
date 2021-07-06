@@ -70,7 +70,7 @@ body {
   }
 }
 
-@media (min-width: 1400px) {
+@media (min-width: 2600px) {
   .site-wrapper {
     max-width: 50%;
     margin: auto;

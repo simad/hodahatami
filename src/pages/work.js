@@ -91,9 +91,8 @@ const WorkPage = ({ data }, location) => {
           the users of the space, and this has to carry throughout the whole
           design process.
         </p>
-
-        {<Login />}
       </article>
+      {<Login />}
     </Layout>
   )
 }
