@@ -18,7 +18,7 @@ const AboutPage = ({ data }) => {
         keywords={[`architecture`, `design`, `psychology`, `art`]}
       />
 
-      <article className="page-template no-image">
+      <article className="page-template page-content">
         <div className="about">
           <div className="forty">
             <figure className="kg-card kg-image-card padded">

@@ -788,7 +788,7 @@ a:hover {
   align-items: flex-start;
   justify-content: flex-start;
   padding: 1em;
-  line-height: 2;
+  line-height: 1.65em;
 }
 
 .client-list {
