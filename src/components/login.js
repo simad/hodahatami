@@ -23,7 +23,7 @@ class Login extends React.Component {
     }
     return (
       <div className="page-template login">
-        <h3>Please insert your password</h3>
+        <h3>Please insert your password to know more</h3>
         <form
           method="post"
           onSubmit={event => {
