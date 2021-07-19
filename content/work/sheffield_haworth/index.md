@@ -24,7 +24,7 @@ In order to balance out these monochromatic and formal spaces, I have made sure 
 ![Office](./2.jpg)
 ![Office](./3.jpg)
 ![Office](./4.jpg)
-![Office](./5.jpg)
+![Office](./4.1.jpg)
 ![Office](./6.jpg)
 ![Office](./7.jpg)
 

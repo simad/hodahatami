@@ -25,8 +25,8 @@ const Layout = props => {
             </div>
           </a>
           <nav className="site-head-left">
-              <Link className="site-head-logo" to={`/`}>
-              <img className="logo" src={'/hh_logo_white.png'} alt="Logo" />
+            <Link className="site-head-logo" to={`/`}>
+              <img className="logo" src={"/hh_logo_white.png"} alt="Logo" />
             </Link>
           </nav>
           <div id="swup" className="site-head-right">
@@ -53,9 +53,19 @@ const Layout = props => {
         </div>
       </main>
       <footer className="site-foot">
-       <div className="site-foot-container">
-        <div>&copy; {new Date().getFullYear()} <Link to={`/`}>{title}</Link> &mdash; Made with ♥ by <a href="https://divisionbyzero.co" target="_blank">Division by Zero</a></div>
-         <SocialIcons />
+        <div className="site-foot-container">
+          <div>
+            &copy; {new Date().getFullYear()} <Link to={`/`}>{title}</Link>{" "}
+            &mdash; Made with ♥ by{" "}
+            <a
+              href="https://divisionbyzero.co"
+              target="_blank"
+              rel="noreferrer"
+            >
+              Division by Zero
+            </a>
+          </div>
+          <SocialIcons />
         </div>
       </footer>
     </div>
