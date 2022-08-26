@@ -7,8 +7,6 @@ import Intro from "../components/intro/intro"
 import Cover from "../components/cover/cover"
 import Testimonials from "../components/testimonials/testimonialSlider"
 import ProjectList from "../components/projects/projectList"
-import { isLoggedIn } from "../services/auth"
-// import "../utils/global.scss"
 import "../utils/normalize.css"
 import "../utils/css/screen.css"
 
@@ -26,7 +24,7 @@ const Index = ({ data }) => {
 
       {<Testimonials />}
 
-      {isLoggedIn() && <ProjectList />}
+      <ProjectList />
     </Layout>
   )
 }

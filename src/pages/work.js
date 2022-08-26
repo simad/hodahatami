@@ -1,11 +1,10 @@
 import React from "react"
 import { graphql, StaticQuery } from "gatsby"
 
+import ProjectList from "../components/projects/projectList"
 import Layout from "../components/layout"
 import SEO from "../components/seo"
-import Login from "../components/login"
 
-// import "../utils/global.scss"
 import "../utils/normalize.css"
 import "../utils/css/screen.css"
 const WorkPage = ({ data }, location) => {
@@ -92,7 +91,7 @@ const WorkPage = ({ data }, location) => {
           design process.
         </p>
       </article>
-      {<Login />}
+      <ProjectList />
     </Layout>
   )
 }
