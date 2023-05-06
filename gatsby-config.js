@@ -105,7 +105,7 @@ module.exports = {
         background_color: `#ffffff`,
         theme_color: `#663399`,
         display: `minimal-ui`,
-        icon: `content/assets/orangutan.png`,
+        icon: `content/assets/hh_logo_front_color.png`,
       },
     },
     `gatsby-plugin-offline`,
